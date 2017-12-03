@@ -1,0 +1,324 @@
+1510339930327	geckodriver	INFO	geckodriver 0.19.0
+1510339930339	geckodriver	INFO	Listening on 127.0.0.1:54740
+1510339932448	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bento\\AppData\\Local\\Temp\\rust_mozprofile.5u4OOr6wO2uX"
+1510339932586	addons.manager	DEBUG	Application has been upgraded
+1510339932603	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1510339932606	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1510339932626	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1510339932628	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1510339932628	addons.manager	DEBUG	Starting provider: XPIProvider
+1510339932629	addons.xpi	DEBUG	startup
+1510339932629	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1510339932629	addons.xpi	INFO	Removing all system add-on upgrades.
+1510339932630	addons.xpi	DEBUG	checkForChanges
+1510339932630	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1510339932631	addons.xpi	DEBUG	Loaded add-on state: ${}
+1510339932632	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510339932632	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510339932633	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1510339932633	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510339932633	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510339932633	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510339932633	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510339932633	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510339932634	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510339932634	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510339932634	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510339932634	addons.xpi	DEBUG	New add-on activity-stream@mozilla.org in app-system-defaults
+1510339932634	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510339932635	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1510339932635	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510339932635	addons.xpi	DEBUG	New add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1510339932636	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1510339932636	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1510339932636	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510339932636	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1510339932636	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510339932637	addons.xpi	DEBUG	New add-on followonsearch@mozilla.com in app-system-defaults
+1510339932637	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510339932637	addons.xpi	DEBUG	New add-on formautofill@mozilla.org in app-system-defaults
+1510339932637	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510339932637	addons.xpi	DEBUG	New add-on onboarding@mozilla.org in app-system-defaults
+1510339932637	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510339932638	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1510339932638	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510339932638	addons.xpi	DEBUG	New add-on shield-recipe-client@mozilla.org in app-system-defaults
+1510339932638	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510339932638	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1510339932638	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510339932639	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1510339932639	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1510339932639	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1510339932639	addons.xpi	DEBUG	getInstallState changed: true, state: {}
+1510339932640	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1510339932645	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\bento\AppData\Local\Temp\rust_mozprofile.5u4OOr6wO2uX\extensions.json
+1510339932647	addons.xpi-utils	DEBUG	New add-on activity-stream@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1510339932664	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932665	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1510339932667	DeferredSave.extensions.json	DEBUG	Starting timer
+1510339932668	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932668	addons.xpi-utils	DEBUG	New add-on clicktoplay-rollout@mozilla.org installed in app-system-defaults
+1510339932670	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932670	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1510339932673	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932674	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1510339932677	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932677	addons.xpi-utils	DEBUG	New add-on followonsearch@mozilla.com installed in app-system-defaults
+1510339932679	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932679	addons.xpi-utils	DEBUG	New add-on formautofill@mozilla.org installed in app-system-defaults
+1510339932681	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932681	addons.xpi-utils	DEBUG	New add-on onboarding@mozilla.org installed in app-system-defaults
+1510339932683	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932683	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1510339932687	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932687	addons.xpi-utils	DEBUG	New add-on shield-recipe-client@mozilla.org installed in app-system-defaults
+1510339932689	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932689	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1510339932692	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932692	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1510339932694	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932694	addons.manager	DEBUG	Registering startup change 'installed' for activity-stream@mozilla.org
+1510339932701	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510339932703	addons.xpi	DEBUG	Calling bootstrap method install on activity-stream@mozilla.org version 0.0.0
+1510339932703	addons.xpi-utils	DEBUG	Make addon app-system-defaults:activity-stream@mozilla.org visible
+1510339932704	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{11833bfe-0e09-4f2d-aa20-ae5f3cc40de0}","location":"app-system-defaults","version":"0.0.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1509386210157,"updateDate":1509386210157,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\activity-stream@mozilla.org.xpi","skinnable":false,"size":1280298,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932706	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932706	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1510339932707	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510339932709	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1510339932709	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1510339932709	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{fc14b4cd-89d0-4816-af8b-50f3374a641f}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1509386210095,"updateDate":1509386210095,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932709	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932709	addons.manager	DEBUG	Registering startup change 'installed' for clicktoplay-rollout@mozilla.org
+1510339932710	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1510339932718	addons.xpi	DEBUG	Calling bootstrap method install on clicktoplay-rollout@mozilla.org version 1.4
+1510339932718	addons.xpi-utils	DEBUG	Make addon app-system-defaults:clicktoplay-rollout@mozilla.org visible
+1510339932718	addons.xpi	DEBUG	Updating XPIState for {"id":"clicktoplay-rollout@mozilla.org","syncGUID":"{19ec7468-a90e-4bc4-be09-bbc9096a37e1}","location":"app-system-defaults","version":"1.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Click-to-Play staged rollout","description":"Staged rollout for Click-to-Play Flash.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1509386210095,"updateDate":1509386210095,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\clicktoplay-rollout@mozilla.org.xpi","skinnable":false,"size":5781,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932718	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932718	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1510339932719	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510339932720	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 3.00
+1510339932721	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1510339932721	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{deaeb124-b2aa-42ce-80e1-330f28718747}","location":"app-system-defaults","version":"3.00","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1509386210079,"updateDate":1509386210079,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","skinnable":false,"size":13712,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932722	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932722	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1510339932722	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510339932726	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1510339932726	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1510339932726	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{66371031-1bcf-4f86-9afe-ba2482d7ebbb}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1509386210079,"updateDate":1509386210079,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"size":1002025,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932726	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932726	addons.manager	DEBUG	Registering startup change 'installed' for followonsearch@mozilla.com
+1510339932727	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510339932729	addons.xpi	DEBUG	Calling bootstrap method install on followonsearch@mozilla.com version 0.9.3
+1510339932729	addons.xpi-utils	DEBUG	Make addon app-system-defaults:followonsearch@mozilla.com visible
+1510339932729	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{d6a49231-fbf9-4cdd-8226-2390e333d424}","location":"app-system-defaults","version":"0.9.3","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1506987970000,"updateDate":1506987970000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\followonsearch@mozilla.com.xpi","skinnable":false,"size":16802,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932729	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932729	addons.manager	DEBUG	Registering startup change 'installed' for formautofill@mozilla.org
+1510339932729	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510339932731	addons.xpi	DEBUG	Calling bootstrap method install on formautofill@mozilla.org version 1.0
+1510339932731	addons.xpi-utils	DEBUG	Make addon app-system-defaults:formautofill@mozilla.org visible
+1510339932732	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{0d90126d-a04d-4e5e-87d2-bd4d124ec3c1}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1509386210048,"updateDate":1509386210048,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"size":335807,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932732	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932732	addons.manager	DEBUG	Registering startup change 'installed' for onboarding@mozilla.org
+1510339932732	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510339932734	addons.xpi	DEBUG	Calling bootstrap method install on onboarding@mozilla.org version 0.1
+1510339932735	addons.xpi-utils	DEBUG	Make addon app-system-defaults:onboarding@mozilla.org visible
+1510339932735	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{69ea5f06-fee0-4bb3-b928-8fdf8fd83fe3}","location":"app-system-defaults","version":"0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1509386210017,"updateDate":1509386210017,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"size":426441,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932735	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932735	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1510339932735	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510339932737	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 10.12.0
+1510339932737	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1510339932737	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{f1cbb1d8-9a73-4a9a-a08d-08e6a1e1e589}","location":"app-system-defaults","version":"10.12.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1506987970000,"updateDate":1506987970000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"size":714554,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932738	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932738	addons.manager	DEBUG	Registering startup change 'installed' for shield-recipe-client@mozilla.org
+1510339932738	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510339932740	addons.xpi	DEBUG	Calling bootstrap method install on shield-recipe-client@mozilla.org version 65
+1510339932740	addons.xpi-utils	DEBUG	Make addon app-system-defaults:shield-recipe-client@mozilla.org visible
+1510339932740	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{a0f294b5-cc5d-4b7a-86ed-383f27bc66a4}","location":"app-system-defaults","version":"65","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1509386209954,"updateDate":1509386209954,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":362690,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932741	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932741	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1510339932742	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510339932743	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1510339932743	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1510339932744	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{612ac81f-aeab-401b-b878-524ce2e395b6}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1509386209938,"updateDate":1509386209938,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"size":8992,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932745	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932745	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1510339932745	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{1053a505-59dd-4ed7-83b7-136c56fc042b}","location":"app-global","version":"56.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1509386210157,"updateDate":1509386210157,"applyBackgroundUpdates":1,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":7147,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932746	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932746	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{11833bfe-0e09-4f2d-aa20-ae5f3cc40de0}","location":"app-system-defaults","version":"0.0.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1509386210157,"updateDate":1509386210157,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\activity-stream@mozilla.org.xpi","skinnable":false,"size":1280298,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932746	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{fc14b4cd-89d0-4816-af8b-50f3374a641f}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1509386210095,"updateDate":1509386210095,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932746	addons.xpi	DEBUG	Updating XPIState for {"id":"clicktoplay-rollout@mozilla.org","syncGUID":"{19ec7468-a90e-4bc4-be09-bbc9096a37e1}","location":"app-system-defaults","version":"1.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Click-to-Play staged rollout","description":"Staged rollout for Click-to-Play Flash.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1509386210095,"updateDate":1509386210095,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\clicktoplay-rollout@mozilla.org.xpi","skinnable":false,"size":5781,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932746	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{deaeb124-b2aa-42ce-80e1-330f28718747}","location":"app-system-defaults","version":"3.00","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1509386210079,"updateDate":1509386210079,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","skinnable":false,"size":13712,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932746	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{66371031-1bcf-4f86-9afe-ba2482d7ebbb}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1509386210079,"updateDate":1509386210079,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"size":1002025,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932746	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{d6a49231-fbf9-4cdd-8226-2390e333d424}","location":"app-system-defaults","version":"0.9.3","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1506987970000,"updateDate":1506987970000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\followonsearch@mozilla.com.xpi","skinnable":false,"size":16802,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932747	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{0d90126d-a04d-4e5e-87d2-bd4d124ec3c1}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1509386210048,"updateDate":1509386210048,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"size":335807,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932747	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{69ea5f06-fee0-4bb3-b928-8fdf8fd83fe3}","location":"app-system-defaults","version":"0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1509386210017,"updateDate":1509386210017,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"size":426441,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932747	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{f1cbb1d8-9a73-4a9a-a08d-08e6a1e1e589}","location":"app-system-defaults","version":"10.12.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1506987970000,"updateDate":1506987970000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"size":714554,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932747	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{a0f294b5-cc5d-4b7a-86ed-383f27bc66a4}","location":"app-system-defaults","version":"65","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1509386209954,"updateDate":1509386209954,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":362690,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932747	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{612ac81f-aeab-401b-b878-524ce2e395b6}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1509386209938,"updateDate":1509386209938,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"size":8992,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932747	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{1053a505-59dd-4ed7-83b7-136c56fc042b}","location":"app-global","version":"56.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1509386210157,"updateDate":1509386210157,"applyBackgroundUpdates":1,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":7147,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510339932747	DeferredSave.extensions.json	DEBUG	Save changes
+1510339932748	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1510339932748	addons.xpi-utils	DEBUG	Updating add-on states
+1510339932752	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510339932752	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 0.0.0
+1510339932753	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510339932753	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1510339932754	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1510339932754	addons.xpi	DEBUG	Calling bootstrap method startup on clicktoplay-rollout@mozilla.org version 1.4
+1510339932755	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510339932755	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 3.00
+1510339932755	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510339932756	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1510339932781	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510339932781	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.3
+1510339932782	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510339932782	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1510339932782	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510339932783	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 0.1
+1510339932783	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510339932783	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 10.12.0
+1510339932784	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510339932784	addons.xpi	DEBUG	Calling bootstrap method startup on shield-recipe-client@mozilla.org version 65
+1510339932790	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510339932791	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1510339932795	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1510339932795	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1510339932795	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1510339932795	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1510339932795	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1510339932796	addons.manager	DEBUG	Starting provider: GMPProvider
+1510339932801	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1510339932801	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1510339932801	addons.manager	DEBUG	Starting provider: PluginProvider
+1510339932801	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1510339932801	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1510339932802	addons.manager	DEBUG	Completed startup sequence
+1510339933035	Marionette	INFO	Enabled via --marionette
+1510339933171	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1510339933171	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1510339933171	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1510339933172	DeferredSave.extensions.json	DEBUG	Starting write
+1510339933392	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933392	DeferredSave.webext.sc.lz4	DEBUG	Starting timer
+1510339933406	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933407	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933407	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933409	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933410	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933411	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933413	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933413	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933416	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933416	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933417	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933417	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933418	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933419	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933420	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933420	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933421	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933421	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933422	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933422	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933424	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933424	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933425	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933426	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933426	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933426	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933427	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933427	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933429	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933430	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933431	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933431	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933432	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933433	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933433	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933433	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933434	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933434	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933436	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933437	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933438	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933439	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933440	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933441	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933442	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933443	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933443	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933446	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933448	DeferredSave.extensions.json	DEBUG	Write succeeded
+1510339933448	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 22
+1510339933452	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933485	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339933704	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510339934295	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1510339934295	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1510339934295	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1510339934297	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510339934297	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510339934297	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1510339934297	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510339934297	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510339934297	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510339934297	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510339934298	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510339934298	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510339934298	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510339934298	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510339934298	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1510339934299	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1510339934299	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1510339934299	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1510339934299	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1510339934300	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1510339934300	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1510339934300	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1510339934300	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1510339934301	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1510339934301	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1510339934301	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1510339934302	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1510339934302	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1510339934431	Marionette	INFO	Listening on port 54750
+1510339934474	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510339934515	Marionette	DEBUG	Register listener.js for window 4294967297
+1510339934568	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510339934568	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.2/20171024165158/WINNT_x86-msvc-x64/en-US/release-cck-mozilla132/Windows_NT%2010.0.0.0%20(x64)/mozilla132/1.0/update.xml
+1510339934571	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510339934571	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1510339934576	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:blank"
+1510339934578	Marionette	DEBUG	Received DOM event "pageshow" for "about:blank"
+1510339934723	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510339935284	addons.productaddons	INFO	Completed downloading document
+1510339935570	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510339935571	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1510339935758	addons.productaddons	INFO	downloadXHR File download. status=200
+1510339935762	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\bento\AppData\Local\Temp\tmpaddon-903924
+1510339936768	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.udemy.com/"
+1510339938397	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1510339938402	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1510339939300	addons.productaddons	INFO	downloadXHR File download. status=200
+1510339939302	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\bento\AppData\Local\Temp\tmpaddon-78aba6
+1510339941270	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.udemy.com/"
+1510339941757	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1510339948053	Marionette	INFO	New connections will no longer be accepted
+1510339948100	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1510339948101	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 65
+1510339948102	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 10.12.0
+1510339948113	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 0.1
+1510339948114	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1510339948115	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.3
+1510339948115	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1510339948116	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 3.00
+1510339948116	addons.xpi	DEBUG	Calling bootstrap method shutdown on clicktoplay-rollout@mozilla.org version 1.4
+1510339948117	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1510339948117	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 0.0.0
+[Parent 22236] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+version 2.0
+1510339887375	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 0.0.0
+[Child 14624] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
