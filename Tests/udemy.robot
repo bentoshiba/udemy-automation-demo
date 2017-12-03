@@ -52,3 +52,6 @@ Print out the dictionary values
 Print out the all dictionary
     [Tags]  practice
     log  ${ALL_USERS}
+
+New keyword from a new user
+    log  I am a keyword
