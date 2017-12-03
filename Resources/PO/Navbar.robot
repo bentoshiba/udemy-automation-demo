@@ -22,3 +22,6 @@ Enter in search
 Submit a search
     click button  xpath=//button[@type='submit']
     sleep  5
+
+Log the results
+    log  hello

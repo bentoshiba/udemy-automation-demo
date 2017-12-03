@@ -21,7 +21,7 @@ ${VERIFICATION_TERM} =  How was your search
 *** Test Cases ***
 
 User can reach the landing page
-    [Tags]  smoke  sanity
+    [Tags]  smoke  sanity monday
     Udemyapp.Load landing page
 
 User can register a new account successfully
