@@ -43,7 +43,7 @@ User can add a course cart
 
 
 Print out the dictionary values
-    [Tags]  printing
+    [Tags]  printing feature2
     log  ${CHINESE_USER.firstname} ${CHINESE_USER.lastname}
     Set To Dictionary  ${CHINESE_USER}  fullname=${CHINESE_USER.firstname} ${CHINESE_USER.lastname}
     log  ${CHINESE_USER.fullname}
