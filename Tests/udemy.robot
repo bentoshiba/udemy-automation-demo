@@ -55,3 +55,7 @@ Print out the all dictionary
 
 New keyword from a new user
     log  I am a keyword
+
+
+Feature 2 keyword
+    log  I am a feature 2 keyword
